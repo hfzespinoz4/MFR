@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <title>Contacto</title>
+        </head>
+        <body>
+            <h1>Contacto</h1>
+            <nav>
+                <span><a href="../index.html">Inicio</a></span>
+                <span><a href="../Experiencia/experiencia.html">Experiencia Laboral</a></span>
+                <span><a href="../Educacion/educacion.html">Formaci&oacute;n Acad&eacute;mica</a></span>
+                <span><a href="contacto.html">Contacto</a></span>
+            </nav>
+            <br>
+            <form method="POST" action="">
+                <fieldset>
+                    <legend>Por favor ingrese la informaci&oacute;n requerida</legend>
+                    <br>
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" value="Ingrese su Nombre">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="lname">Apellido: </label>
+                        <input type="text" id="lname" value="Ingrese su Apellido">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="telef">Tel&eacute;fono</label>
+                        <input type="number" id="telef" value="N&uacute;mero Telefónico">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" value="Ingrese Email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="solicitud">Solicitud:</label>
+                        <textarea id="solicitud" name="solicitud" cols="40" rows="6"> Ingrese su mensaje</textarea>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <button type="submmit">Enviar Email</button>
+            </form>
+        </body>
+    </html>
