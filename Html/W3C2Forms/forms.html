@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <title>Confirmaci&oacute;n de Compra</title>
+        </head>
+        <body>
+            <h1> Confirmaci&oacute;n de Pago y Env&iacute;o</h1>
+            <br>
+            <form method="POST" action="">
+                <fieldset>
+                    <legend><strong>Ingrese sus datos personales</strong></legend>
+                    <br>
+                    <div>
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" value="Nombre_Completo">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="telefono">Tel&eacute;fono</label>
+                        <input type="number" id="telefono" value="Telefono">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Correo Electr&oacute;nico</label>
+                        <input type="email" id="email" value="Correo_Electronico">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="direccion">Direcc&oacute;n:</label>
+                        <input type="text" id="direccion" value="Direccion">
+                    </div>
+                    <br>
+                    <label for="hora-entrega">Indique la hora de entrega</label>
+                    <select id="hora-entrega" name="hora-entrega">
+                        <Option>Mañana</Option>
+                        <option>Tarde</option>
+                        <Option>Noche</Option>
+                    </select>    
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><strong>Indique el m&eacute;todo de pago</strong></legend>
+                    <br>
+                    <div>
+                        <label for="metodo"> M&eacute;todo de pago:</label>
+                        <select id="metodo" name="mpago">
+                            <option>Tarjeta Cr&eacute;dito</option>
+                            <option>PayPal</option>
+                            <option>Tranferencia Bancaria</option>
+                            <option>Efectivo</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div> 
+                        <label for="referencia">Indique el n&uacute;mero de referencia:</label>
+                        <input type="text" id="referencia" value="Numero_Tarjeta/Ref._Bancaria">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="vencimiento">Expiracion:</label>
+                        <input type="text" id="vencimiento" value="Fecha_Vencimiento">
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </body>
+    </html>
