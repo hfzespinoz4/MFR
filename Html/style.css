@@ -1,0 +1,21 @@
+body{
+heigth: 1000px;
+
+
+}
+
+.full-width{
+    width: 100%;
+    position: fixed;
+    height: auto;
+    background-color: red;
+
+
+}
+.quarter-width{
+    float: left;
+    width: 25%;
+    text-align: center;  
+    font-size: 15px;  
+    
+}

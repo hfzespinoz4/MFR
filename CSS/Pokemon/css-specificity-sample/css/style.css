@@ -1,0 +1,32 @@
+.intro {
+    background: grey;
+}
+
+.intro p {
+    color: white
+}
+
+.title {
+    color: black;
+    font-style: italic;
+}
+
+.contact {
+    background: gold;
+}
+
+.contact .title {
+    color: red;
+    font-style: normal;
+}
+
+.contact p {
+    color: green;
+}
+
+/* Can you see any red text on the page? Why not?
+* Change your HTML and this CSS below to make only the phone number appear in red
+*/
+p {
+    color: red;
+}
