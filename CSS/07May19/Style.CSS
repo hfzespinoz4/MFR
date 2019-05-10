@@ -1,0 +1,19 @@
+/*Clase del 07 Mayo 2019
+se realiza repaso de CSS: Especificidad, Herencia y Posicionamiento */
+
+
+/* Ejemplo de Flexbox*/
+
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.cuadro{
+    width: 150px;
+    height: 150px;
+}
+
+.blue{
+    background: blue
+    
+}
