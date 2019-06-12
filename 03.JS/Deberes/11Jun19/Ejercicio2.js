@@ -39,7 +39,7 @@ let q4=prompt('La Gran Muralla China es la única edificación humana que puede 
 if (q4 === 'verdadero'){
     console.log('Correcto!');
 } else {
-    console.log('Incorrecto!')
+    console.log('Incorrecto!');
 }
 
 
