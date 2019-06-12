@@ -35,3 +35,6 @@ for (i=0; i<=4; i++){
         alumnos[6] + " tiene " + alumnos[7] + " años de edad y " +
         alumnos[8] + " tiene " + alumnos[9] + " años de edad.");
     
+alumnos.forEach((alumno, index) => {
+    console.log(index, alumno);
+});
