@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.box{
+    background: black;
+    height: 50vh;
+    width: 20vw;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.box1{
+    background: limegreen;
+}
+
+.box2{
+    background: orangered;
+}
+
+.box3{
+    background:palegoldenrod;
+}
+
+.box4{
+    background:aliceblue;
+}
+.box5{
+    background: indigo;
+}
+.box6{
+    background: violet;
+}
