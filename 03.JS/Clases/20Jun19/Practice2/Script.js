@@ -1,8 +1,8 @@
 const box1 = document.querySelector('.box1');
 const box2 = document.querySelector('.box2');
-const box3 = document.queryselector('.box3');
+const box3 = document.querySelector('.box3');
 
-const updateBoxes = () =>{
+const updateBoxes = () => {
     box1.classList.remove('box1');
     box1.classList.add('box4');
     box2.classList.remove('box2');
