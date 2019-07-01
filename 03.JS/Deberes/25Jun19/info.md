@@ -3,4 +3,4 @@ En cuanto a la tarea, me gustaría que hicieseis un ejercicio muy básico de tod
 2. El usuario escribe algo en el input y pulsa el botón
 3. Al pulsar el botón, el texto se añade a una *lista* y el input queda nuevamente en blanco
 
-Mucho ánimo y de nuevo, cualquier duda que tengáis, aquí estamos los profesores para ayudaros :sonrisa:!
+Mucho ánimo y de nuevo, cualquier duda que tengáis, aquí estamos los profesores para ayudaros 
