@@ -22,3 +22,7 @@ const taskMessage = document.querySelector('.task-message')
     taskMessage.value = ''
 
 
+/* funcion que indique el area de un cuadrado
+
+
+*/
