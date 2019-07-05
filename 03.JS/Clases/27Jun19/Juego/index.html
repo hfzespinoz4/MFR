@@ -3,27 +3,30 @@
         <head>
             <meta charset="utf-8">
             <title>El Juego de Xavi</title>
-            <link rel="StyleSheet" href="./Style.css">
+            <link rel="stylesheet" href="style.css">
         </head>
         <body id="main">
-            <div>
-                <h1 id="title">El Juego de Xavi</h1>
-                <div>
-                    <p>Bienvenido al juego de Xavi, debes adivinar un número entre 0 (cero) y 100 (cien), para ello tienes diez (10) oportunidades. En la parte inferior podrás visualizar tu puntaje. </p>
-                    <div class="fieldset" id="campos">
-                        <label for="number">Ingresa un número:</label>
-                        <input id="number" type="number" name="fname">
-                        <button id="buttom">Comprobar</button>
-                    </div>
-                    <div class="fieldset">
-                        <p>Número Intentos:</p>
-                        <p class="container" id="intentos"></p>
-                        <p>Intentos Restantes:</p>
-                        <p class="container" id="restantes"></p>
-                    </div>
-                    <div class="container" id="message"></div>  
+            <h1 id="title">El Juego de Xavi</h1>
+            <main>
+                <p>Bienvenido al juego de Xavi, debes adivinar un número entre 0 (cero) y 100 (cien), para ello tienes diez (10) oportunidades. En la parte inferior podrás visualizar tu puntaje. </p>
+                <!-- <div class="fieldset" id="campos">
+                    <label for="number">Ingresa un número:</label>
+                    <input id="number" type="number" name="fname">
+                    <button id="button">Comprobar</button>
+                </div> -->
+                <form id="random-num-val">
+                    <label for="number">Ingresa un número:</label>
+                    <input id="number" type="number" name="fname" required min="0" max="100">
+                    <button type="submit">Comprobar</button>
+                </form>
+                <div class="fieldset">
+                    <p>Número Intentos:</p>
+                    <p class="container" id="tryouts"></p>
+                    <p>Intentos Restantes:</p>
+                    <p class="container" id="lifes"></p>
                 </div>
-            </div>
+                <div class="container" id="message"></div>  
+            </main>
             <script src="./script.js"></script>
         </body>
     </html>
