@@ -1,6 +1,3 @@
-//Declaramos las funciones:
-//===================================
-
 //Definimos las variables para los botones y resultados:
 const sumNumbersForm = document.querySelector('.sum-opr');
 const subsNumbersForm = document.querySelector('.subs-opr');
@@ -23,7 +20,6 @@ const subsNumbers = () => {
     const sbnumber1 = Number(sb1.value);
     const sbnumber2 = Number(sb2.value);
     let result= sbnumber1 - sbnumber2;
-    //showMessage(" - ", " es igual a ");
     subsResultsElement.innerHTML=result;
     console.log(sbnumber1 + " - " + sbnumber2 + " es igual a " + result);
     sb1.value="";
@@ -38,14 +34,12 @@ const sumNumbers = () => {
     const smnumber1 = Number(sm1.value);
     const smnumber2 = Number(sm2.value);
     let result = smnumber1 + smnumber2;
-    //showMessage(" + ", " es igual a ");
     sumResultsElement.innerHTML=result;
     console.log(smnumber1 + " + " + smnumber2 + " es igual a  " + result);
     sm1.value="";
     sm2.value="";
     sm1.focus();
 }
-
 
 // Escribe una función que acepte dos números y los divida//
 const divNumbers = () => {
@@ -54,7 +48,6 @@ const divNumbers = () => {
     const dvnumber1 = Number(dv1.value);
     const dvnumber2 = Number(dv2.value);
     let result = dvnumber1 / dvnumber2;
-    //showMessage(" / ", " es igual a ");
     divResultsElement.innerHTML=result;
     console.log (dvnumber1 + " / " + dvnumber2 + " es igual a " + result);
     dv1.value="";
@@ -69,7 +62,6 @@ const powerNumber = () => {
     const pwnumber1 = Number(pw1.value);
     const pwnumber2 = Number(pw2.value);
     let result= (pwnumber1 ** pwnumber2);
-    //showMessage(" elevado a ", " es igual a ");
     powResultsElement.innerHTML=result;
     console.log (pwnumber1 + " elevado a " + pwnumber2 + " es igual a " + result);
     pw1.value="";
@@ -105,7 +97,6 @@ const  countCharInString = () =>{
         if (string[i].toLowerCase() ===  char) index.push(i);
     }
     console.log("En la frase: " + string + " aparece " + index.length + " veces la letra " + char);
-    //document.getElementById("strcount-results").innerHTML = letterCount.length;
     document.getElementById("strcount-results").innerHTML = ("En la frase: " + string + " aparece " + index.length + " veces la letra " + char);
 str.value="";
 chr.value="";   
@@ -143,4 +134,3 @@ stringCountForm.addEventListener('submit', function(event){
     event.preventDefault()
     countCharInString()
 })
-
