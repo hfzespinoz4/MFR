@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cálculos Matemáticos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-document">
+        <section class="sum-opr">
+            <h2 class="title-style">Suma de dos números</h2>
+            <form>
+                <p class="opr-description">Debes ingresar dos números y obtendrás el resultado de sumar ambos números </p>
+                <label for="sum-number1">Primer Número:</label>
+                <input class="input-field" id="sum-number1" type="number" name="sum-number1" required>
+                <label for="sum-number2">Segundo Número:</label>
+                <input class="input-field" id="sum-number2" type="number" name="sum-number2" required>
+                <button type="submit" id="sum-numbers-button">Resultado</button>
+            </form>
+            <p>El resultado es:</p>
+            <P class="opr-results" id="sum-results"></P>
+        </section>
+        <section class="subs-opr ">
+            <h2 class="title-style">Resta de dos números</h2>
+            <form>
+                <p class="opr-description">Debes ingresar dos números y obtendrás el resultado de restarlos</p>
+                <label for="subs-number1">Ingresa el Minuendo:</label>
+                <input class="input-field" id="subs-number1" type="number" name="subs-number1" required>
+                <label for="subs-number2">Ingresa el Sustraendo:</label>
+                <input class="input-field" id="subs-number2" type="number" name="subs-number2" required>
+                <button type="submit" id="subs-numbers-button">Resultado</button>
+            </form>
+            <p>El resultado es:</p>
+            <P class="opr-results" id="subs-results"></P>
+        </section>
+        <section class="div-opr">
+            <h2 class="title-style">División de dos números</h2>
+            <form>
+                <p class="opr-description">Debes ingresar dos números y obtendrás el resultado de dividirlos</p>
+                <label for="div-number1">Ingresa el Dividendo:</label>
+                <input class="input-field" id="div-number1" type="number" name="div-number1" required>
+                <label for="div-number2">Ingresa el Divisor:</label>
+                <input class="input-field" id="div-number2" type="number" name="div-number2" required>
+                <button type="submit" id="div-numbers-button">Resultado</button>
+            </form>
+            <p>El resultado es:</p>
+            <P class="opr-results" id="div-results"></P>
+        </section>
+        <section class="pow-opr">
+            <h2 class="title-style">Potencia de un número</h2>
+            <form>
+                <p class="opr-description">Debes ingresar un número y obtendrás su potencia</p> 
+                <label for="pow-number1">Ingresa un número:</label>
+                <input class="input-field" id="pow-number1" type="number" name="pow-number" required>
+                <label for="pow-number2">Ingresa el exponente:</label>
+                <input class="input-field" id="pow-number2" type="number" name="pow-number" required>
+                <button type="submit" id="power-number-button">Resultado</button>
+            </form>
+            <p>El resultado es:</p>
+            <P class="opr-results" id="pow-results"></P>
+        </section>
+        <section class="comp-opr">
+            <h2 class="title-style">Comparación de números</h2>
+            <form>
+                <p class="opr-description">Debes ingresar dos números para conocer cual es mayor de ellos</p>
+                <label for="comp-number1">Primer número: </label>
+                <input class="input-field" id="comp-number1" type="number" name="comp-number1" required>
+                <label for="comp-number2">Segundo número: </label>
+                <input class="input-field" id="comp-number2" type="number" name="comp-number2" required>
+                <button type="submit" id="comparison-numbers-button">Resultado</button>
+            </form> 
+            <p>El resultado es:</p>
+            <P class="opr-results" id="comp-results"></P>
+        </section>
+        <section class="strcount-opr">
+            <h2 class="title-style">Conteo de Letras</h2>
+            <form>
+                <p class="opr-description"> Debes ingresar una frase</p>
+                <label for="strcount-input">Ingresa una frase:</label>
+                <input class="input-field" id="strcount-input" type="text" name="strcount-input" required>
+                <label for="strcount-letter">Ingresa la letra:</label>
+                <input class="input-field" id="strcount-letter" type="text" name="strcount-letter" maxlength="1" required>
+                <button type="submit" id="string-count-button">Resultado</button>                    
+            </form>
+            <p>El resultado es:</p>
+            <P class="opr-results" id="strcount-results"></P>
+        </section>
+    </main>
+    <footer>
+        <p>Página realizada por Harvin F. Zúniga Espinoza</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

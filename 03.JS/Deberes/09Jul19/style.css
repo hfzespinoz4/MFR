@@ -1,0 +1,107 @@
+.main-document{
+    font-family: 'Segoe UI';  
+}
+
+section{
+    padding:2rem;  
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.sum-opr{
+    background-color: #58C8E4;
+}
+
+.subs-opr{
+    background-color: #10C13B;
+}
+
+.div-opr{
+    background-color: #933EE8;
+}
+
+.pow-opr{
+    background-color: #C67F13;
+}
+
+.comp-opr{
+    background-color: #4074F3;
+}
+
+.strcount-opr{
+    background-color: #B9CF41;
+}
+
+.input-field{
+    width: 3.5rem;
+}
+
+#strcount-input{
+    width: 30rem;
+}
+
+.box {
+    width: 75%;
+}
+
+@media all and (max-width: 1024px) {
+  
+  #strcount-input{
+      width: 18rem;
+  }
+
+  p{
+      margin: 0.5rem;
+      font-size: 1.2rem;
+  }
+
+  label{
+      margin: 0.5rem;
+      justify-content: space-around;
+      font-size: 1.2rem;
+  }
+
+  .input-field{
+    width: 2.5rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+  
+    #strcount-input{
+        width: 18rem;
+    }
+  
+    p{
+        margin: 0.5rem;
+        font-size: 1.3rem;
+    }
+  
+    label{
+        margin: 0.8rem;
+        justify-content: space-around;
+        font-size: 1.3rem;
+    }
+  
+    .input-field{
+      width: 2.5rem;
+    }
+
+    section{
+        padding:2rem;  
+        font-size: 1rem;
+    }
+}
