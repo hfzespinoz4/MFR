@@ -1,0 +1,60 @@
+:root{
+    background:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;    
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+div{
+    display: flex;
+}
+
+li:hover{
+    background:green;
+}
+
+main{
+    width: 75%;
+    height: 75%;
+}
+
+span{
+    align-content: center;
+    align-items: center;
+}
+
+.main-picture{
+    width: 16rem;
+    height: 16rem;
+}
+
+button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    align-content: center;
+    align-items: center;
+}
+}
+
