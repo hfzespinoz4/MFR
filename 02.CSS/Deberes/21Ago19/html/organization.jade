@@ -1,0 +1,110 @@
+doctype html
+html.html(lang="es")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie-edge")
+        meta(name="author" content="Harvin Zuniga")
+        meta(name="description" content="TDI-Tecnología y Desarrollo")
+        meta(name="viewport" content="width=device-width")
+        link(rel="shorcut icon" href="../media/TDI-Logo.png")
+        link(rel="stylesheet" href="../css/style.css")
+        link(rel="stylesheet" href="../css/animate.css")
+        link(href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet")
+        title TDI - Tecnología y Desarrollo
+    body.main
+        header
+            img.company-logo(src="../media/TDI-Logo.png" alt="Logotipo TDI")
+            nav.nav-menu
+                ul.nav-links
+                    li
+                        a(href="../index.html") Home
+                    li
+                        a(href="./organization.html") Nosotros
+                    li
+                        a(href="./products.html") Productos
+                    li
+                        a(href="./contact.html") Contacto
+                .burguer
+                    .line1
+                    .line2
+                    .line3
+            h1.title-style Nosotros
+            br
+        main.section-main
+            section
+                h2 Colaboradores
+                hr
+                .founders
+                    .main-productos.shadow.founders-desc
+                        img.img-founder(src="../media/fndr-HarvinZuniga.jpg" alt="Foto Harvin Zuniga")
+                        div
+                            h3 Harvin Zúniga
+                            p.fndr-desc Ingeniero Informático, Nicaraguense por gracia de Dios y amante de la Tecnología; con experiencia en Servidores Windows y VMWare, Bases de Datos SQL, Visual Basic.Net y conocimientos de Diseño Web.
+                            ul.fndr-contact
+                                li
+                                    a(href="mailto:harvin.zuniga@gmail.com")
+                                        img(src="../media/correo-footer.png" alt="Correo Electronico")
+                                    a(href="https://www.linkedin.com/in/hzunigae/")
+                                        img(src="../media/linked-footer.png" alt="Cuenta LinkedIn")
+                                    a(href="https://facebook.com/hfzespinoza")
+                                        img(src="../media/facebook-footer.png" alt="Sígueme en Facebook")
+                                    a(href="https://twitter.com/FrankMartin1_")
+                                        img(src="../media/twitter-footer.png" alt="Sígueme en Twitter")
+                                    a(href="https://www.instagram.com/hzunigae/")
+                                        img(src="../media/instagram-footer.png" alt="Sígueme en Instagram")
+            section
+                h2 Visión
+                hr
+                .main-productos
+                    p Ser el socio preferido en el sector de las TIC para las empresas en España.
+            section
+                h2 Misión
+                hr
+                .main-productos
+                    p Ofrecer servicios de alto valor añadido y confiables para cubrir todas las necesidades tecnológicas de cualquier empresa.
+            section
+                h2 Nuestros Socios
+                hr
+                .slideshow-container
+                    .main-productos.shadow.mySlides.fade
+                        img.slide-partner(src="../media/np-amazonalexa.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-aws.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-cisco.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-fortinet.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-google.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-ibmcloud.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-kaspersky.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-lenovo.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-linksys.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-microsoft.png" alt="")
+                    .main-productos.shadow.mySlides.fade
+                        img.slider-partner(src="../media/np-microsoftazure.png" alt="")
+                    a.prev(onclick="plusSlides(-1)") &#10094;
+                    a.next(onclick="plusSlides(1)") &#10095;
+        footer
+            nav.nav-footer
+                a.nav-footer-image(href="https://www.facebook.com")
+                    img(src="../media/facebook-footer.png" alt="Enlace a Facebook")
+                a.nav-footer-image(href="https://twitter.com/?lang=es")
+                    img(src="../media/twitter-footer.png" alt="Enlace a Twitter")
+                a.nav-footer-image(href="https://instagram.com")
+                    img(src="../media/instagram-footer.png" alt="Enlace a Instagram")
+                a.nav-footer-image(href="https://linkedin.com")
+                    img(src="../media/linked-footer.png" alt="ENlace a LinkedIn")
+                a.nav-footer-image(href="https://youtube.com")
+                    img(src="../media/youtube-footer.png" alt="Enlace a Youtube")
+                a.nav-footer-image(href="./html/Contact.html")
+                    img(src="../media/correo-footer.png" alt="Enlace a Contacto")
+            p TDI - Derechos Reservados 2019
+        script(src="../js/organization.js")
+        script(src="../js/app.js")

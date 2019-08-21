@@ -1,0 +1,115 @@
+doctype html
+html.html(lang="es")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        meta(name="author" content="Harvin Zuniga")
+        meta(name="description" content="TDI - Tecnología y Desarrollo")
+        link(rel="shortcut icon" href="../media/TDI-Logo.png")
+        link(rel="styleSheet" type="text/css" href="../CSS/style.css")
+        link(rel="styleSheet" type="text/css" href="../CSS/animate.css")
+        link(href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet")
+        title TDI - Tecnología y Desarrollo
+    body.main
+        header
+            img.animated.zoomInUp.bounce.delay-0.4s.company-logo(src="../media/TDI-Logo.png" alt="Logotipo TDI")
+            nav.nav-menu
+                ul.nav-links
+                    li
+                        a(href="../index.html") Home
+                    li
+                        a(href="./organization.html") Nosotros
+                    li  
+                        a(href="./products.html") Productos
+                    li
+                        a(href="./contact.html") Contacto
+                .burguer
+                    .line1
+                    .line2
+                    .line3
+        main
+            h1.hidden-title Productos
+            section
+                h2 Licencias y Software
+                hr
+                .main-productos-shadow.prods
+                    div
+                        .products
+                            img.products-image(src="../media/prod-kaspersky.png")
+                        .description
+                            h3.details Kaspersky Antivirus
+                            p.price 30,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-windows.png")
+                        .description
+                            h3.details Windows 10 Home
+                            p.price 110,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-office.png")
+                        .description
+                            h3.details Office 365
+                            p.price 100,00€
+            section
+                h2 Ordenadores y Portátiles
+                hr
+                .main-productos.shadows.prods
+                    div
+                        .products
+                            img.products-image(src="../media/prod-ordenadores1.jpg")
+                        .description
+                            h3.details Acer Aspire Z5
+                            p.price 100,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-ordenadores2.jpg")
+                        .description
+                            h3.details Samsung Galaxy Note
+                            p.price 800,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-ordenadores3.png")
+                        .description
+                            h3.details Dell Latitude D630
+                            p.price 450,00€
+            section
+                h2 Redes y Comunicaciones
+                hr
+                .main-productos.shadow.prods
+                    div
+                        .products
+                            img.products-image(src="../media//prod-redes1.jpg")
+                        .description
+                            h3.details Linksys EA4500 Router
+                            p.price 100,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-redes2.jpg")
+                        .description
+                            h3.details Cisco Catalyst C2950 Switch
+                            p.price 200,00€
+                    div
+                        .products
+                            img.products-image(src="../media/prod-redes3.png")
+                        .description
+                            h3.details Cableado Estructurado
+                            p.price 15,00€
+        footer
+            nav.nav-footer
+                a.nav-footer-image(href="https://www.facebook.com")
+                    img(src="../media/facebook-footer.png" alt="Enlace a Facebook")
+                a.nav-footer-image(href="https://twitter.com/?lang=es")
+                    img(src="../media/twitter-footer.png" alt="Enlace a Twitter")
+                a.nav-footer-image(href="https://instagram.com")
+                    img(src="../media/instagram-footer.png" alt="Enlace a Instagram")
+                a.nav-footer-image(href="https://linkedin.com")
+                    img(src="../media/linked-footer.png" alt="ENlace a LinkedIn")
+                a.nav-footer-image(href="https://youtube.com")
+                    img(src="../media/youtube-footer.png" alt="Enlace a Youtube")
+                a.nav-footer-image(href="./html/Contact.html")
+                    img(src="../media/correo-footer.png" alt="Enlace a Contacto")
+            p TDI - Derechos Reservados 2019
+        script(src="../js/organization.js")
+        script(src="../js/app.js")                    
