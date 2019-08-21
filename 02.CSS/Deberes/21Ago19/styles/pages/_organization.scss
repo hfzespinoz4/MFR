@@ -1,0 +1,24 @@
+.founders{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem;   
+}
+
+.fndr-desc{
+    text-align: justify;
+    margin:0;
+    width:40%;
+}
+
+.img-founder{
+    width: 10rem;
+    height: 10rem;
+    margin-top:1.2rem;
+}
+
+.fndr-contact{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}

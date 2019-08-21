@@ -1,0 +1,49 @@
+form{
+    background: none;
+    align-content: center;
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    &input{
+        background: var(--inputs-background);
+        border-color: var(--inputs-border);
+        color: var(--inputs-colors);
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-width: 1px;
+        border-style: solid;
+        padding: 16px;
+        outline: 0;
+        font-size: 0.9rem;
+        &:focus{
+            border-color: var(--inputs-border);
+        }
+    }
+    &input[type="submit"]{
+        background: var(--red-color);
+        border-color: transparent;
+        color:--inputs-background;
+        cursor: pointer;
+        &:hover{
+            background: var(--red-color);
+        }
+        &:focus{
+            border-color:orange;
+        }
+    }
+    &textarea{
+        width: 30rem;
+        height: 10rem;
+        border-style: line;
+        border-color: var(--inputs-border);
+        color:--inputs-color;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--primary-font), var(--secundary-font);
+    }
+    &p{
+        margin: 0;
+        padding: 12px;
+    }
+}

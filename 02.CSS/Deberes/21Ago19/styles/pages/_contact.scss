@@ -1,0 +1,15 @@
+.callto{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.contact-image{
+    width:15rem;
+    height: 15rem;
+    &:hover{
+        box-shadow: 0 10px 20px rgba(207, 52, 39,0.19), 0 6px 6px var(--red-color);
+    }
+}

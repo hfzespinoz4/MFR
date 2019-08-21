@@ -1,0 +1,41 @@
+
+.nav-mmenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color :  var(--blue-color);
+    height: 2.4rem;
+    &ul{
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        &li{
+            list-style: none;
+            text-align: center;
+            padding: 0.7rem;
+            &a{
+                color: #fff;
+                text-decoration: none;
+                letter-spacing:3px;
+                font-size: 16px;
+                width: 12rem;
+            }
+            &:hover, &:active{
+                background-color: var(--red-color);
+                transition: 1.1s ease;
+            }
+        }
+    }
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+    &div{
+        width: 25px;
+        height: 5px;
+        background-color: rgb(226, 226, 226);
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+}

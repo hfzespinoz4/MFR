@@ -185,8 +185,6 @@ body{
     max-width: 10rem;
     min-height: 10rem;
     max-height: 10rem;
-
-
 }
 
 /*Estilos del Header (Logo, Menú y Main Banner)=========================*/
@@ -495,6 +493,7 @@ border-radius: 5px;
 padding: 0.1rem 0;
 text-align: center;
 }
+
 /*Página Contacto===============================================================*/
 
 .login {

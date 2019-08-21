@@ -1,0 +1,119 @@
+.main-banner{
+    height: 10rem;
+    width: 71rem;
+    align-content: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 10rem;
+    position:relative;
+    display: block;
+    box-sizing: content-box;
+}
+
+.banner-container{
+    position:absolute;
+    align-items: center;
+    justify-items: center;
+    z-index: -1;
+    width: 71rem; 
+}
+
+.banner-images{
+    width: 71rem;    
+}
+
+.title-container{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+    padding-top: 2rem;    
+}
+
+.serv-container{
+    margin-top: 3rem;
+}
+
+.serv-description{
+    font-size:0.5rem;
+    z-index:100;
+}
+
+.serv-info{
+    padding-top:4rem;
+    display: flex;
+}
+
+.company-description{
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.space-bet-section{
+    margin-top: 0.3rem;
+    margin-bottom: 4rem;   
+}
+
+.main-promos{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items:center;
+}
+
+.us{
+    color: white;
+    text-align:center;
+    border-style:solid;
+    border-width: 1px;
+    background-color: var(--blue-color);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);   
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 10rem;
+    max-height: 15rem;
+    &:hover{
+        background-color: var(--red-color);
+        background-image:none;
+    }
+}
+
+.us-img{
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 10rem;
+    max-height: 10rem;
+}
+
+.company-section{
+    justify-content: space-between;
+    color: white;
+    padding: 10rem;;
+    padding-bottom: 4rem;
+    text-align:center;
+    border-style:solid;
+    border-width: 1px;
+    background-color: var(--blue-color);
+}
+
+.business-case{
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    width: 22rem;
+    text-align:center;
+    font-size:1.5rem;
+    background-color: var(--blue-color);    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    &:hover{
+        background-color:var(--red-color);
+        background-image:none;
+    }
+}
+
+#h1{
+    z-index:30;
+    padding-top: 3rem;
+}
