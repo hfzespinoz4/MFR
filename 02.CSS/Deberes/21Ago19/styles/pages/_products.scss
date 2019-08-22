@@ -13,6 +13,13 @@
     transform: translateY(0);
 }
 
+.main-productos{
+    position: relative;
+    display: flex;
+    align-content: center;
+    margin-bottom: 2rem;
+}
+
 .products{
     position: relative;
 }
