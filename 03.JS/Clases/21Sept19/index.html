@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <title>To Do List VueJS</title>
+</head>
+<body>
+    <div id="app"> <!--Este es el scope de nuestra aplicación de VueJS-->
+        <p title="My Own Title"> {{message}}</p>
+        <p v-bind:title="tooltipMessage"> {{message}}</p> <!--Sintáxis de Vue 
+            v-bind son directivas, cuando son propias de Vue inician con "v"
+        tooltipMessage es una expresión JavaScript-->
+        <p :title="tooltipMessage"> {{message}}</p> <!--en últimas versiones de Vue no es necesario escribir v-bind-->
+        {{message}}
+        <p v-if="showFirstMessage">This should be shown</p>
+        <p v-else-if="!showFirstMessage">This shouldn't be shown</p>
+        <p v-else>This shouldn't be shown neighter</p>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
