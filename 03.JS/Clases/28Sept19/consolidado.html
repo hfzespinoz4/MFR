@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <title>Clase 280919 - VueJS Sesion2 </title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Ejercicio 1: Lista de Tareas</h2>
+            <div id="app1">
+                <input type="text" placeholder="Ingrese la tarea" v-model="nameTask">
+                <button @click="createTask">Crear Tarea</button>
+                <ul>
+                    <task-item
+                        v-for="(task, index) in taskList"
+                        :key="index"
+                        :tarea="task"
+                        @remove="removeTask"                        
+                    />
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Ejercicio 2: Computed</h2>
+            <div id="app2">
+                {{ printDate2 }}
+            </div>
+            <button @click="printDate1">Nueva Fecha</button>
+                {{this.date}}
+        </section>
+        <section>
+            <h2>Ejercicio 3: Sing Up Form</h2>
+            <div id="app3">
+                <sign-up-form></sign-up-form>
+            </div>
+        </section>
+    </main>
+    <script src="./consolidado.js"></script>
+</body>
+</html>

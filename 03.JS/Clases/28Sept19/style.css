@@ -1,0 +1,17 @@
+.task-done{
+    text-decoration: line-through;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+div{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+input{
+    text-align: center;
+}

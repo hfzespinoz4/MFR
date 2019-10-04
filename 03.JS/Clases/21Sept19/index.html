@@ -18,7 +18,23 @@
         <p v-if="showFirstMessage">This should be shown</p>
         <p v-else-if="!showFirstMessage">This shouldn't be shown</p>
         <p v-else>This shouldn't be shown neighter</p>
-
+        <!--Revisar el código de los li-->
+        
+        <div>
+            <!--
+                <li v-for="(task, index) in taskList">
+                <h6></h6>{{task.name}}</li>
+            <li v-for="(task, index) in taskList">
+                <input type="checkbox" v-model="task.name">
+                <p> {{task.name}}</p>
+                <span v-if="task.name">The Task is done!</span>
+                <span v-else>The task isn´t done!</span>
+            </li>  -->
+            <ul>
+                <task-item></task-item>
+            </ul>
+            
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
