@@ -1,0 +1,113 @@
+
+:root{
+    background-image: url("../img/container_bg.png");
+    color: white;
+}
+
+.pokelogo{
+    height: 10rem;
+}
+
+li{
+    
+    justify-content: space-between;
+}
+
+button{
+    height: 15rem;
+    width: 12rem;
+    margin: 2rem;
+    border-radius: 5px;
+    background-color: rgba(1, 1, 1, .1);
+    
+}
+
+button:hover{
+    box-shadow: 0 5px 15px -5px rgba(1, 1, 1, .5);
+    transform: translateY(-10px);
+}
+
+ul.col3 li{
+    list-style: none;
+    align-items: center;
+    display: inline;    
+    padding-top: 2px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    text-transform: capitalize;
+}
+
+span{
+    display:block;    
+    border-radius: 5px;
+}
+
+.pokeid{
+    margin-top: 1px;
+}
+.typegroup{
+    display: inline-block;
+    
+    margin: 3px;
+    padding: 1rem;
+    margin-right: 10px;
+    padding: 3px 0;
+    text-align: center;
+    width: calc(50% - 20px);
+    font-family: sans-serif;
+}
+
+.typecontainer{
+    margin: 3px;
+    color:white;
+}
+
+.fire{
+    
+    background: #FD7D24;
+    color: #FFF;
+}
+
+.normal {
+    background: #A4ACAF;
+    color: #222;
+}
+
+.water {
+    background: #4592C4;
+    color: #FFF;
+  }
+
+.electric {
+    background: #EED535;
+    color: #222;
+}
+
+.bug {
+    background: #729F3F;
+    color: #FFF;
+}
+
+.poison {
+    background: #B97FC9;
+    color: #FFF;
+}
+
+.ice {
+    background: #51C4E7;
+    color: #222;
+  }
+
+.grass {
+    background: #9BCC50;
+    color: #222;
+}
+
+.flying {
+    background: blue;
+    color: #FFF;
+  }

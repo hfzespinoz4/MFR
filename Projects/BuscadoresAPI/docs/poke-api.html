@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokedex</title>
+    <!-- Agregando Bootstrap al Proyecto -->
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Agregando CSS personalizado-->
+    <link rel="stylesheet" href="../css/pokestyle.css">
+</head>
+<body class="container bg-light ">
+    <header>
+        <div class="d-flex">
+            <img src="../img/pokemon_logo.png" alt="" class=" pokelogo img-center img-fluid col-6 mx-auto mb-6">
+        </div>
+    </header>
+    <main class="mx-auto">
+        <hr>
+        <input id="poke-search" type="text" placeholder="Buscar por Nombre" class="col-6 d-block my-4 text-center form-control form-item-block mx-auto">
+        <ul id="pokelist" class="col3"></ul>
+    </main>
+    <footer>
+        <hr>
+        <p class="text-center text-info">Made with PokeApi. Pokémon and Pokémon character names are trademarks of Nintendo</p>
+    </footer>
+    <script src="../js/pokeapi.js"></script>
+</body>
+</html>

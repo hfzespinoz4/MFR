@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Harvin Zúniga">
+    <meta name="description" content="Online Search Tool"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Agregando Bootstrap al Proyecto -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Agregando CSS personalizado-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>You Search</title>
+</head>
+<body class="container bg-light">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <a href="./index.html" class="navbar-brand">You Search </a>
+            <ul class="navbar-nav navbar-right justify-content-center ml-auto">
+                <li class="nav-item mx-2"><a class="nav-link nav-item" href="./index.html">Main</a></li>
+                <li class="nav-item mx-2"><a class="nav-link nav-item" href="./docs/poke-api.html">PokeSearch</a></li>
+                <li class="nav-item mx-2"><a class="nav-link nav-item" href="./docs/git-api.html">GitSearch</a></li>
+            </ul>
+        </nav>         
+    </header>
+    <main class="mt-5 pt-5">
+        <div class="d-flex justify-content-between ">
+            <div class="col-sm-6 mx-auto img-fluid mt-6"> 
+                <a href="./docs/git-api.html"><img src="./img/github_logo.png" alt="Logo Github" class="img-fluid"></a>
+                <p class="my-2 text-center text-primary">Búsqueda en Github</p>
+            </div>
+            <div class="col-sm-6 mx-auto img-fluid mt-6" >
+                <a href="./docs/poke-api.html"><img src="./img/pokemon_logo.png" alt="Logo Pokemon" class="img-fluid"></a>
+                <p class="my-2 text-center text-primary">Búsqueda de Pokémon</p>
+            </div>
+        </div>   
+    </main>
+    <footer>
+        <hr>
+        <p class="text-center mb-1 text-primary">Diseñado por Harvin Zuniga</p>
+    </footer>
+    <script src=".js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>

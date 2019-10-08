@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Harvin Zúniga">
+        <meta name="description" content="Online Search Tool"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Agregando Bootstrap al Proyecto -->
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Agregando CSS personalizado-->
+        <link rel="stylesheet" href="../css/style.css">
+        <title class="text-info">Search Hub</title>
+    </head>
+<body class="container bg-light">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <a href="../index.html" class="navbar-brand">Search Hub</a>
+            <ul class="navbar-nav navbar-right justify-content-center ml-auto">
+                <li class="nav-item mx-2"><a class="nav-link nav-item btn text-info" href="../index.html">Main</a></li>
+                <li class="nav-item mx-2"><a class="nav-link nav-item btn text-info" href="./poke-api.html">PokeSearch</a></li>
+                <li class="nav-item mx-2"><a class="nav-link nav-item btn text-info" href="./git-api.html">GitSearch</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main class="d-flex">
+        <div class="col-sm-6">
+            <div class="mt-5">
+                <div class="row">
+                    <img src="../img/github-logo.png" alt="logo github" class=" git-image img-center my-3 mx-auto rounded-circle">
+                </div>
+                <h1 class="row-4 text-center text-info display-5 mt-5">Github Profile Search Tool</h1>
+                <div class="text-center d-flex flex-column mx-auto">
+                   <!-- <label for="select-profile" >Seleccione el tipo de perfil a buscar</label>
+                    <select defaul="" id="select-profile" class="col-6 mx-auto form-control form-item-block text-center">
+                        <Option>Desarrollador Independiente</Option>
+                        <option>Organización / Empresa</option>
+                    </select>-->
+                    <input type="text" id="user-search" placeholder="Ingrese el usuario a buscar" class="col-8 d-block my-4 mx-auto text-center form-control form-item-block">
+                    <button id="btn-search" class="btn btn-outline-info my-2 mx-auto btn-block col-sm-6">Search User</button>
+                </div>            
+            </div>
+            <section class="d-flex justify-content-between my-3">
+                
+            </section>            
+        </div>     
+        <div id="results" class="col-sm-6 d-column  flex-column ">
+            <h3 class="display-6 text-center">Results</h3>
+            <img id="user-avatar" src="../img/userplaceholder.png" class="git-image mt-5 mb-3 img-fluid img-center d-block my-1 mx-auto rounded-circle">
+            <div class="d-flex">
+                <div class="col-4 d-flex flex-column">
+                    <label for="" class="text-right">Nombre:</label>
+                    <label for="" class="text-right">Cant. Repositorios:</label>
+                    <label for="" class="text-right">URL Perfil:</label>
+                    <label for="" class="text-right">Repositorios:</label>
+                </div>
+                <div class="col-8 d-flex flex-column">
+                    <a id="user-name" class="mb-2"></a>
+                    <a id="user-repos" class="mb-2"></a>
+                    <a id="user-perfil" class="mb-2"></a> 
+                    <ul id="user-reposlist"></ul>
+                </div>                                               
+            </div>
+        </div>     
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../js/gitapi.js"></script>
+</body>
+</html>
