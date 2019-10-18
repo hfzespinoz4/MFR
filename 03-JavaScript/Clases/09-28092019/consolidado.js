@@ -78,9 +78,10 @@ Vue.component('sign-up-form',{
         }
     },
     methods: {
-        addOne: function(){
-            this.count++;
+        validateName: function (){
+            let test = this.mail.value.length === 0;
         }
+
     },
     template: `
     <div>    
@@ -121,17 +122,7 @@ new Vue({
     el: '#app3',
     methods: {
         validateName: function (){
-            let test = this.mail.value.length === 0 || emailRegExp.test(this.mail.value);
-            this.mail
-           
-
+            let test = this.mail.value.length === 0;
         }
     }
 })
-
-/*
- <br>
-         <label>first name {{count}}</label>
-         <button @click="addOne">Add one</button>
-         <p></p>
-         */
