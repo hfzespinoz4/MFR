@@ -2,7 +2,8 @@ const pokelist = document.getElementById('pokelist');
 let pokemon = document.getElementById('poke-search');
 
 function pokeapiCall (){
-    fetch(`https://pokeapi.co/api/v2/pokemon/`)
+   // fetch(`https://pokeapi.co/api/v2/pokemon/`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/?offset=20&limit=30`)
     .then(response => {
         if (!response.ok) {
             throw Error(`Exception ${response.status}`);
@@ -10,6 +11,7 @@ function pokeapiCall (){
         return response.json();
     })
     .then(pokeinfo => pokemonlist(pokeinfo))
+    //.then(pokeinfo => pokebusqueda(pokeinfo)) 
     .catch(error => alert(error)); 
     return;
     
@@ -54,9 +56,35 @@ function pokeapiCall (){
                     typegroup.className= "typegroup"; 
                     nameContainer.appendChild(typegroup);                   
                 });        
-            }
+            };
         });
     };  
-}
+};
+
+function pokebusqueda(){
+    let a, i, txtValue;
+    let filter = pokemon.value;
+    li = pokelist.getElementsByTagName('li');
+    for (i = 0; i < li.length; i++){
+        a = li[i].getElementsByTagName('h4')[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    };
+};
 
 window.addEventListener('load', pokeapiCall());
+document.addEventListener('keydown', function (e) {
+    pokebusqueda();
+}, false);
+document.addEventListener('keyup', function (e) {
+    pokebusqueda();
+}, false);
+pokemon.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        pokebusqueda();
+    } 
+}); 

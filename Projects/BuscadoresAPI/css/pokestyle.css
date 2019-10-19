@@ -9,7 +9,6 @@
 }
 
 li{
-    
     justify-content: space-between;
 }
 
@@ -19,13 +18,13 @@ button{
     margin: 2rem;
     border-radius: 5px;
     background-color: rgba(1, 1, 1, .1);
-    
 }
 
 button:hover{
     box-shadow: 0 5px 15px -5px rgba(1, 1, 1, .5);
     transform: translateY(-10px);
 }
+
 
 ul.col3 li{
     list-style: none;
@@ -67,7 +66,6 @@ span{
 }
 
 .fire{
-    
     background: #FD7D24;
     color: #FFF;
 }
@@ -111,3 +109,19 @@ span{
     background: blue;
     color: #FFF;
   }
+
+#btn-search{
+    height:2.2rem;
+    width: 3.2rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    padding: none;
+    align-self: center;
+}
+
+#btn-search :hover{
+    transform: none;
+    box-shadow: none;
+}
