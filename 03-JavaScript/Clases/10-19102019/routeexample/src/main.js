@@ -4,10 +4,10 @@ import App from './App.vue';
 
 Vue.use(VueRouter);
 
-import HomePage from './components/Pages/HomePage';
-import ContactPage from './components/Pages/ContactPage';
-import ProductsPage from './components/Pages/ProductsPage';
-import NotFoundPage from './components/Pages/NotFoundPage';
+import HomePage from './components/Pages/HomePage.vue';
+import ContactPage from './components/Pages/ContactPage.vue';
+import ProductsPage from './components/Pages/ProductsPage.vue';
+import NotFoundPage from './components/Pages/NotFoundPage.vue';
 
 const routes = [
   { path: '/', component: HomePage },
