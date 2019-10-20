@@ -1,16 +1,9 @@
 <template>
   <div>
-    <header>
-      <ul>
-        <li><button @click="showHomePage">Home</button></li>
-        <li><button @click="showProductsPage">Products</button></li>
-        <li><button @click="showContactPage">Contact</button></li>
-      </ul>
-    </header>
     <main>
-        <HomePage v-if="isShowHomePage"/>
-        <ProductsPage v-if="isShowProductsPage"/>
-        <ContactPage v-if="isShowContactPage"/>
+      <HomePage v-if="isShowHomePage"/>
+      <ProductsPage v-if="isShowProductsPage"/>
+      <ContactPage v-if="isShowContactPage"/>
     </main>
     <Copyleft/>
   </div>
