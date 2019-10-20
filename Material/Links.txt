@@ -6,3 +6,15 @@ https://lenguajecss.com/p/css/selectores/selectores-avanzados
 http://alessandrogiammaria.com/
 https://www.atalanta.uk.com/
 https://www.webdevelopmentgroup.com/
+
+
+https://ultimatecourses.com/learn/javascript-basics
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Basics
+https://levelup.gitconnected.com/a-complete-beginners-guide-to-javascript-part-1-d04919d0cb19?sk=f38ce5d145cc4768f6ad393f5483d2bf
+https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions
+
+
+http://beta.adalab.es/f-online-pokemon-annabranco/#/
+source: https://books.adalab.es/materiales-front-end-e/formacion-continua/1_prueba_tecnica
+Vue Examples: https://codepen.io/collection/nWejZG/
+Vue Info: https://es-vuejs.github.io/vuejs.org/v2/guide/#Componentes
