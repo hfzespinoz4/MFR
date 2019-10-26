@@ -5,34 +5,38 @@
       </div>
       <div>
          <label for="fname">First Name:</label>
-         <input type="text" id="fname" v-model="newFirstName">
+         <input type="text" id="fname" v-model="newFirstName" class="form form-item">
          <p> {{invalidFirstName}} </p>
          <br>
        </div>
        <div>
          <label for="lname">Last Name:</label>
-         <input type="text" id="lname" v-model="newLastName">
+         <input type="text" id="lname" v-model="newLastName" class="form form-item">
          <p> {{invalidLastName}} </p>
          <br>
        </div>
        <div>
          <label for="mail">Email:</label>
-         <input type="email" id="mail" v-model="newEmail">
+         <input type="email" id="mail" v-model="newEmail" class="form form-item">
          <p> {{invalidEmail}} </p>
          <br>
        </div>
        <div>
          <label for="age">Age:</label>
-         <input type="number" id="age" v-model="newAge">
+         <input type="number" id="age" v-model="newAge" class="form form-item">
          <p> {{invalidAge}} </p>
          <br>
        </div>
        <br>
-       <button @click="validate"> Sing On </button>
+       <button @click="validate" class="btn btn-color-primary"> Sing On </button>
+       <br>
+       <Footermsg/>
       </div>
 </template>
 
 <script>
+    import Footermsg from '../Elements/Footermsg'
+
     export default {
         name: "ContactPage",
         data: () => {
@@ -46,6 +50,10 @@
                 newAge:"",
                 invalidAge:"",
             };
+        },
+
+        components:{
+            Footermsg
         },
    
         computed:{

@@ -10,7 +10,7 @@ import ProductsPage from './components/Pages/ProductsPage.vue';
 import NotFoundPage from './components/Pages/NotFoundPage.vue';
 
 const routes = [
-  { path: '/', component: HomePage },
+  { path: '/home', component: HomePage },
   { path: '/products', component: ProductsPage },
   { path: '/contact', component: ContactPage },
   { path: '*', component: NotFoundPage },
