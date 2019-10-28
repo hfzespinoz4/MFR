@@ -5,29 +5,26 @@
         <router-link @click="showHomePage" tag="li" to="/" exact> <a>Home </a> </router-link>
         <router-link @click="showProductsPage" tag="li" to="/products" exact> <a>Products </a> </router-link>
         <router-link @click="showContactPage" tag="li" to="/contact" exact> <a>Contact</a> </router-link>
+        <router-link @click="showCatalogPage" tag="li" to="/catalog" exact><a> Catalog </a></router-link>
       </ul>
     </header>
     <main>
-      <router-view></router-view>
-      <p>Aqui el  Container fuera del router view</p>
-      <HomePage v-if="isShowHomePage"/>
-      <ProductsPage v-if="isShowProductsPage"/>
-      <ContactPage v-if="isShowContactPage"/>
-      
+      <router-view>
+        
+      </router-view>        
     </main>
   </div>
 </template>
 
 <script>
+/*
 import HomePage from './components/Pages/HomePage'
 import ProductsPage from './components/Pages/ProductsPage'
 import ContactPage from './components/Pages/ContactPage'
-
+import CatalogPage from './components/Pages/CatalogPage'
+*/
 
 export default {
-  /*
-  
-      */
   name: 'app',
  
   data: function() {
@@ -35,17 +32,19 @@ export default {
       isShowHomePage: true,
       isShowProductsPage: false,
       isShowContactPage: false,
+      isShowCatalogPage: false
     };
   },
 
   components: {
-    HomePage,
+    /*HomePage,
     ProductsPage,
-    ContactPage
+    ContactPage,
+    CatalogPage/*
   },
 
   methods: {
-    showHomePage: function() {
+/*    showHomePage: function() {
       this.isShowHomePage = false;
       this.isShowProductsPage = false;
       this.isShowContactPage = false;
@@ -61,8 +60,16 @@ export default {
       this.isShowContactPage = true;
       this.isShowProductsPage = false;
       this.isShowHomePage = false;
+    },
+
+    showCatalogPage: function(){
+      this.isShowHomePage = false;
+      this.isShowProductsPage = false;
+      this.
     }
-  }
+
+*/
+  } 
 }
 </script>
 
