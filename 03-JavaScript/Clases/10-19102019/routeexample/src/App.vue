@@ -2,7 +2,7 @@
   <div>
     <header>
       <ul>
-        <router-link @click="showHomePage" tag="li" to="/" exact> <a>Home </a> </router-link>
+        <router-link @click="showHomePage" to="/" exact> <a>Home </a> </router-link>
         <router-link @click="showProductsPage" tag="li" to="/products" exact> <a>Products </a> </router-link>
         <router-link @click="showContactPage" tag="li" to="/contact" exact> <a>Contact</a> </router-link>
         <router-link @click="showCatalogPage" tag="li" to="/catalog" exact><a> Catalog </a></router-link>
